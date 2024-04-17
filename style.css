@@ -1,0 +1,42 @@
+ .item{
+    border:16px solid rgb(150, 148, 143) ;
+    height: 120px;
+    width: 120px;
+    border-top: 16px solid goldenrod;
+     border-radius: 50%;
+    animation: animate 2s linear  infinite;
+ }
+ @keyframes animate{
+    from{
+      
+          transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+        
+    }
+}
+
+/* #p{
+    height: 120px;
+    width: 120px;
+    border: 5px solid rgb(217, 235, 55);
+    border-radius: 50%;
+    position: relative;
+    bottom: 5px;
+    right: 5px;
+    animation: animate 2s ease-in 0s infinit normal;
+}
+    @keyframes animate{
+        from{
+             /* border-radius: 0%; */
+             /* height: 0px;
+    width: 0px;
+        }
+        to{
+            
+            /* border-radius: 50%; */
+            /* height: 100px;
+    width: 100px;
+        }
+    } */
